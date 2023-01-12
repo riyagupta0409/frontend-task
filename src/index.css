@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.kycForm{
+
+  margin: 40px 40px !important; 
+  background-color: rgba(242, 180, 180, 0.212);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.formHeadingsRed{
+  color: red;
+  /* font-size: 26px; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+
+.formHeadingsBlue{
+  color: blue;
+  /* font-size: 26px; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+
+}
+
+.styledInput , textarea{
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 7px 10px;
+  border-color: #ccc;
+  font-size: 20px;
+  border: 2px solid rgba(98, 97, 97, 0.733);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 46%;
+  margin:15px;
+  margin-left: 0;
+  margin-right: 40px;
+  display: inline;
+  
+}
+
+textarea{
+  display: block;
+  width: 96%;
+  margin-right:40px !important  ;
+}
+
+::placeholder{
+  color: rgba(181, 180, 180, 0.906);
+}
+
+button{
+  display: block;
+}
+
+/* .grid-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+input[type="file" i]{
+  display: block !important;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 15px;
+  border: 2px solid rgba(98, 97, 97, 0.733);
+  margin-top: 4px;
+
+}
+
+.fileUploadSection{
+  display:inline-block;
+  width: 46%;
+  margin:15px;
+  margin-left: 0;
+  margin-right: 55px;
+  margin-top: 8px;
+}
+
+.submitButton{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 34px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.uploadText{
+  color:green;
+  position: relative;
+  top: -30px;
+  left: 94%;
+}
+@media only screen and (max-width: 600px) {
+  .uploadText{display: none;}
+  .fileUploadSection , .styledInput , textarea{width: 100%;padding:2px;margin:10px 1px;display: block;}
+  .kycForm{margin: auto !important; padding: auto ;}
+}
+
+.footer{
+  margin-top: 40px;
+  /* position: fixed; */
+  bottom: 0;
+  background-color: rgba(255, 0, 0, 0.859);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 20px;
+  /* width: 100%; */
+}
+
+.header{
+  display: flex;
+  padding: 8px 25px;
+  padding-right: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 0 rgb(182, 179, 179);
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.sr-logo{
+  height:100px;
+  max-width:180px;
+  margin: 0 !important;
+  float: left !important;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.kycUpdateHeading{
+  /* floa */
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 48px !important;
+  font-weight: bolder;
+}
